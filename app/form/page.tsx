@@ -12,7 +12,7 @@ export default function FormPage() {
       <form action={clearCacheWithTag}>
         <button type="submit">Action with revalidateTag</button>
       </form>
-      <Link href="/">Back</Link>
+      <Link href="/">Home</Link>
     </div>
   );
 }
