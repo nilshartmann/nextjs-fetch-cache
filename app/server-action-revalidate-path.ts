@@ -2,7 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 
-export default async function clearCacheWithRevalidatePath(formData: FormData) {
+export default async function clearCacheWithRevalidatePath() {
   console.log("Trigger revalidatePath('/') and return");
-  return revalidatePath("/");
+  revalidatePath("/");
 }
